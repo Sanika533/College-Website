@@ -1,0 +1,13 @@
+#js{
+ text-align:justify;
+ margin:4%;
+}
+.img-hover-zoom--slowmo{
+  transform-origin: 50% 65%;
+  transition: transform 3s, filter 1.1s ease-in-out;
+}
+
+.img-hover-zoom--slowmo:hover{
+  transform: scale(1.1);
+}
+
